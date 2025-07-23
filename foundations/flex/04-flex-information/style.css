@@ -24,3 +24,49 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+  flex-shrink: 1;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+.chilli {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+.pepper {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+.saffron {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
